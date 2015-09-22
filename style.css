@@ -1,0 +1,154 @@
+/*-------------------------
+	Document
+-------------------------*/
+
+html {
+	background-color: #000000;
+}
+
+body {
+	color: #808080;
+	font-size: 17px;
+}
+
+strong {
+	margin: 10px 10px 10px 10px;
+	color: #a02020;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+#main {
+    margin-top: 5px;
+}
+
+/*-------------------------
+	Form
+-------------------------*/
+
+#sayform {
+	display: inline;
+}
+
+input {
+	background-color: #404040;
+	color: #808080;
+	border-color: #606060;
+	margin: 5px 3px 0px 3px;
+}
+
+.center {
+	text-align: center;	
+}
+
+.button {
+	padding: 1px 2px 1px 2px;
+}
+
+/*-------------------------
+	Image
+-------------------------*/
+
+img#feed {
+	margin-top: 5px;
+	border-style: solid;
+	border-color: #7F7F7F;
+	border-width: 1px;
+}
+
+#imgbackground {
+	background-image: url(loading.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*-------------------------
+	Footer
+-------------------------
+
+a:link {
+	color: #806060;
+}
+
+a:visited {
+	color: #202040;
+}
+
+a:active {
+	color: #606060;
+}
+
+a:hover {
+	color: #8080a0;
+}
+*/
+
+/*-------------------------
+	Admin Panel
+-------------------------*/
+
+table
+{
+	text-align: center;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif ;
+	font-weight: normal;
+	font-size: 11px;
+	color: #fff;
+	background-color: #666;
+	border: 0px;
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+table td 
+{
+	background-color: #CCC;
+	color: #000;
+	padding: 4px;
+	text-align: left;
+	border: 1px #fff solid;
+}
+
+table td.odd
+{
+	background-color: #BCBCBC;
+	color: #000;
+	padding: 4px;
+	text-align: left;
+	border: 1px #fff solid;
+}
+
+table td.button
+{
+	background-color: green;
+	padding: 4px;
+	border: 1px #fff solid;
+	cursor: pointer;
+}
+
+table td.button:hover
+{
+	background-color: blue;
+	padding: 4px;
+	border: 1px #fff solid;
+	cursor: pointer;
+}
+
+table td.odd
+{
+	background-color: #BCBCBC;
+	color: #000;
+	padding: 4px;
+	text-align: left;
+	border: 1px #fff solid;
+}
+
+table td.hed
+{
+	background-color: #666;
+	color: #fff;
+	padding: 4px;
+	text-align: left;
+	border-bottom: 2px #fff solid;
+	font-size: 12px;
+	font-weight: bold;
+}

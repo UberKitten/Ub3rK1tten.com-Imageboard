@@ -1,0 +1,10 @@
+<Files index.php>
+ php_flag engine on
+</Files>
+
+Options +FollowSymLinks 
+RewriteEngine on 
+
+Redirect 301 /image.png /index.php
+Redirect 301 /image.jpeg /index.php
+ErrorDocument 404 ./index.php
